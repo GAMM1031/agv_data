@@ -339,5 +339,5 @@ oReq.addEventListener("load", (function(xhr) {
             }
     });
 }));
-oReq.open("GET", '/agv_data/sismo_time/sismos_usgs2.geojson');
+oReq.open("GET", '/sismos_usgs2.geojson');
 oReq.send();
