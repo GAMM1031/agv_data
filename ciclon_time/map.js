@@ -288,6 +288,6 @@ oReq.addEventListener("load", (function(xhr) {
             }
     });
 }));
-oReq.open("GET", '/tomentas1.geojson'); //AQUÍ IRÍA LA URL DEL GEOJSON 
-oReq.send();
+oReq.open("GET", '/agv_data/ciclon_time/tomentas1.geojson'); //AQUÍ IRÍA LA URL DEL GEOJSON 
+oReq.send();           
 
